@@ -1,0 +1,35 @@
+.h-days {
+    height: inherit;
+    width: 30px;
+    background-color:white;
+}
+.h-all-day {
+    width: 30px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-size: 12px;
+    font-family: Arial, sans-serif;
+    font-weight: 300;
+    height: inherit;
+    color: darkgrey;
+}
+
+.hours {
+    width: calc( (450px - 61px) / 8);
+    height: inherit;
+    list-style-type: none;  
+    background-color: white;
+    color: lightgray;
+    padding-top: 10px;
+}
+.hours::after {
+    display: block;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    height: 3px;
+    border-left: 1px solid #d3d3d3;
+    content: "";
+}

@@ -1,0 +1,10 @@
+.hour {
+    width: calc( (450px - 61px) / 24);
+    height: inherit;
+    list-style-type: none;  
+    background-color: white;
+    border-left: 1px solid #d3d3d3;
+}
+.selected {
+    background-color: #e0e0e0;
+}

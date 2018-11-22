@@ -1,0 +1,22 @@
+{
+  "name": "calendar",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "cd ./server & npm install & cd .. & cd ./client & npm install & cd .. & npm run-script build --prefix ./client & start http://localhost:3001 & node ./server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GlyNataly/test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GlyNataly/test/issues"
+  },
+  "homepage": "https://github.com/GlyNataly/test#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}

@@ -1,0 +1,51 @@
+.row {
+    height: 40px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    border-bottom: 1px solid #d3d3d3;
+}
+.days {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    height: inherit;
+    width: 30px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    font-weight: 200;
+    background-color:white;
+    color: darkgrey;
+    align-self: center;
+    border-left: 1px solid #d3d3d3;
+}
+.all-day {
+    height: inherit;
+    width: 30px;
+    background-color: gray;
+    color: darkgrey;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+ul.times {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end; 
+    margin: 0; 
+    padding: 0;
+    max-width: 389px;
+}
+.full-day {
+    background-image: url("./images/check-mark.svg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 20px 20px;
+}
+
+.full-dayName {
+    background-color: #e0e0e0;
+}
